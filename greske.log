@@ -1,0 +1,10 @@
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\prodavnica\admin.php on line 43
+[02-Jul-2021 09:11:09 Europe/Berlin] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in C:\xampp\htdocs\eapoteka\db.php on line 604
+[02-Jul-2021 09:11:09 Europe/Berlin] PHP Warning:  MysqliDb::_prepareQuery(): Couldn't fetch mysqli in C:\xampp\htdocs\eapoteka\db.php on line 605
+[02-Jul-2021 09:11:09 Europe/Berlin] PHP Fatal error:  Problem preparing query (select * from lekovi l join kategorijalekova kl  on l.kategorijaID = kl.kategorijaID )  in C:\xampp\htdocs\eapoteka\db.php on line 605
+[02-Jul-2021 09:14:15 Europe/Berlin] PHP Fatal error:  Problem preparing query (select * from lekovi l join kategorijalekova kl  on l.kategorijaID = kl.kategorijaID ) Table 'eapoteka.lekovi' doesn't exist in C:\xampp\htdocs\eapoteka\db.php on line 605
+[02-Jul-2021 09:14:53 Europe/Berlin] PHP Fatal error:  Problem preparing query (select * from lekovi l join kategorijalekova kl  on l.kategorijaID = kl.kategorijaID ) Table 'eapoteka.lekovi' doesn't exist in C:\xampp\htdocs\eapoteka\db.php on line 605
+[02-Jul-2021 09:14:57 Europe/Berlin] PHP Fatal error:  Problem preparing query (select * from lekovi l join kategorijalekova kl  on l.kategorijaID = kl.kategorijaID  order by l.cena asc) Table 'eapoteka.lekovi' doesn't exist in C:\xampp\htdocs\eapoteka\db.php on line 605
+[02-Jul-2021 09:14:59 Europe/Berlin] PHP Fatal error:  Problem preparing query (select * from lekovi l join kategorijalekova kl  on l.kategorijaID = kl.kategorijaID  order by l.cena desc) Table 'eapoteka.lekovi' doesn't exist in C:\xampp\htdocs\eapoteka\db.php on line 605
